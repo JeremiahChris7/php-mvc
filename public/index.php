@@ -6,4 +6,4 @@
  * PHP version 5.4
  */
 
-echo 'Hello from the public folder!';
+echo 'Request URL = "' . $_SERVER['QUERY_STRING'] . '"';
